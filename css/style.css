@@ -836,7 +836,7 @@ td{
 }
 .small_navbar h4{
 	padding-top: 5px;
-	color: #555;
+	color: #333;
 	font-weight: 900;
 	font-size: 22px;
     text-transform: uppercase;
@@ -960,17 +960,17 @@ td{
 	padding: 10px 0;
 }
 .tab-content table{
-	background-color: #fff !important;
+	background-color: #2b6cb2 !important;
 	padding: 20px;
 }
 .tab-content table tbody td{
 	font-size: 22px;
-    color: #524f4f;
+    color: #fff;
     padding: 30px;
 }
 .tab-content table th{
 	    font-size: 20px;
-    color: #525050;
+    color: #fff;
     text-transform: uppercase;
     /* font-weight: 900; */
     /* font-family: 'Merriweather', serif; */
@@ -1155,7 +1155,21 @@ td{
     text-align: center;
 }
 
+.bg-success {
+    background-color: #2b6cb2;
+    color: #fff;
+}
+.table-hover>tbody>tr:hover {
+    background-color: #29578c;
+    color: #fff;
+}
 
+@media (max-width: 767px){
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff;
+}
+  .small_navbar span{
+  	display: none;
+  }
 
-
-
+}
